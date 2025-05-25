@@ -66,8 +66,8 @@ namespace ToDo_Project_1_OOP
                         newTask1.IsCompleted = isCompleted;
                         newTask1.DueDate = dueDate;
 
+                        // Add the new task to the task list
 
-                        
                         newTask.AddTask(newTask1);
                         Console.WriteLine("Task added successfully!");
                         Console.WriteLine("====================================");
